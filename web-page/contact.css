@@ -1,0 +1,118 @@
+/* This Style is for Paragraph */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+img {
+    width: 100%;
+}
+p {
+    line-height: 28px;
+    font-size: 18px;
+    font-family: cursive;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+header {
+    background: #211f20;
+    padding: 22px;
+}
+.logo-container{
+    display: inline-block;
+    color: #f5f5dc;
+}
+.logo-container img {
+    width: 150px;
+}
+.nav-container{
+    text-align: right;
+    padding-top: 50px;
+    float: right;
+}
+nav.header-navigation a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+nav.header-navigation a:hover{
+    color: #c5a514;
+}
+
+/* Banner Styles */
+.banner-section {
+    background: white url('../assets/images/banner.jpg') no-repeat;
+    background-size: cover;
+}
+.banner {
+    padding: 320px 230px 370px 230px;
+}
+.banner h1 {
+    margin-left: 320px;
+    font-size: 18px;
+    color: #596321;
+    font-family: cursive;
+}
+/* Contact Styles */
+section#contact {
+    background: url(../assets/images/contact.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    padding: 25px 90px 85px 90px;
+}
+section#contact .form-container h2{
+    color: black;
+    padding: 20px;
+}
+section#contact .form-container {
+    text-align: center;
+    width: 95%;
+}
+section#contact .form-container form {
+    padding: 25px 5px 0px 275px;
+    display: inline-grid;
+}
+
+textarea#message {
+    border: 1px solid #000;
+    border-radius: 9px;
+    padding: 11px;
+    width: 200%;
+    margin-bottom: 12px;
+    background-color: transparent;
+}
+input[type="text"] {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 11px;
+    width: 200%;
+    margin-bottom: 12px;
+    background-color: transparent;
+}
+section#contact .form-container label {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+section#contact input[type="button"] {
+    padding: 13px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    background: #957c1b;
+    margin-top: 10px;
+    color: #fff
+}
+section#contact input[type="button"]:hover {
+    background: #ca9909;
+}

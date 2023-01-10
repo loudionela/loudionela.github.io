@@ -1,0 +1,88 @@
+/* This Style is for Paragraph */
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+p {
+    line-height: 28px;
+    font-size: 18px;
+    font-family: cursive;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+header {
+    background: #211f20;
+    padding: 22px;
+}
+.logo-container{
+    display: inline-block;
+    color: #f5f5dc;
+}
+.logo-container img {
+    width: 150px;
+}
+.nav-container{
+    text-align: right;
+    padding-top: 50px;
+    float: right;
+}
+nav.header-navigation a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+nav.header-navigation a:hover{
+    color: #c5a514;
+}
+
+/* Banner Styles */
+.banner-section {
+    background: white url('../assets/images/banner.jpg') no-repeat;
+    background-size: cover;
+}
+.banner {
+    padding: 320px 230px 370px 230px;
+}
+.banner h1 {
+    margin-left: 320px;
+    font-size: 18px;
+    color: #596321;
+    font-family: cursive;
+}
+
+/* About Styles */
+section.about-section {
+    padding: 55px;
+}
+.about-section h2 {
+    text-align: center;
+}
+.about-left {
+    display: inline-block;
+    width: 25%;
+}
+.about-right {
+    width: 70%;
+    float: right;
+    text-align: left;
+    font-size: 18px;
+}
+.about-left img {
+    border-radius: 100%;
+    width: 320px;
+    height: 320px;
+}
+section.about-section {
+    background: #e6c590;
+}
